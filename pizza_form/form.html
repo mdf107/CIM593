@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Pizza Form</title>
+  </head>
+  <style>
+  body {
+    background-color: lightblue;
+  }
+  </style>
+  <body>
+
+    <style>
+      p {
+       text-align:center
+      }
+    </style>
+
+    <h1 align="center">Order</h1>
+
+    <form class="" action="">
+
+      <p>
+      <label for="first_name">First Name: </label>
+      <input type="text" name="first_name" value="" placeholder="Maxim">
+      </p>
+
+      <p>
+      <label for="last_name">Last Name: </label>
+      <input type="text" name="last_name" value="" placeholder="Fisher">
+      </p>
+
+      <p>
+      <label for="address">Address: </label>
+      <input type="text" name="address" value="" placeholder="123 Street City, State Zip">
+      </p>
+
+      <p>
+      <label for="">Pizza Toppings (Check all that apply)</label>
+      <br>
+      <input type="checkbox" name="toppings[]" value="Cheese">
+      Cheese <br>
+
+      <input type="checkbox" name="toppings[]" value="Mushrooms">
+      Mushrooms <br>
+
+      <input type="checkbox" name="toppings[]" value="Pepperoni">
+      Pepperoni <br>
+      </p>
+
+      <p>
+      <label for="comments">Comments</label> <br>
+      <textarea name="comments" rows="8" cols="80"></textarea>
+      </p>
+
+      <p>
+      <input type="submit" name="submit" value="Place Order">
+      </p>
+
+    </form>
+
+  </body>
+</html>
